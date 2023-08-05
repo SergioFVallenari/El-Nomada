@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alojamiento El Nómada</title>
+    <!-- <link rel="stylesheet" type="text/css" href="app.css"> -->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.cdnfonts.com/css/selima" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Stardos+Stencil&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2 class="logo">El nomada</h2>
+        </a>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="contacto.html">Contacto</a>
+            <label for="check" class="esconder-menu">
+                &#215
+            </label>
+            <div class="mostrar-menu redes">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+            </div>
+        </nav>
+    </header>
+<section id="banner">
+    <div class="contenido-banner">
+        <h3 class="titulo"><span>Contacto</span></h3>
+    </div>
+</section>
+
+<span class="linea"></span>
+
+<div class="h1-container">
+    <h1>Contáctanos</h1>
+    <div class="h1-line"></div>
+</div>
+
+<section id="contacto">
+    <div class="infoContact">
+        <article class="infoW">
+            <p>Si tenes alguna duda, comentario o recomendación, podés contactarnos a través del siguiente formulario
+            </p>
+            <img src="Imagenes/bruj.png" alt="">
+        </article>
+        <article class="infoW">
+            <form id="contact-form" method="POST">
+                <label for="nombre">Nombre*</label>
+                <input type="text" name="nombre" required>
+                <label for="apellido">Apellido*</label>
+                <input type="text" name="apellido" required>
+                <label>Email*</label>
+                <input type="email" name="mail" required>
+                <label for="">Comentario*</label>
+                <textarea name="comentario" required cols="40" rows="15"></textarea>
+                <input type="submit">
+                <h6>Los campos marcados con * son obligatorios</h6>
+            </form>
+        </article>
+    </div>
+</section>
+
+<div class="h1-container">
+    <h1>Reservas</h1>
+    <div class="h1-line"></div>
+</div>
+<section id="reservas">
+    <div class="reserva">
+        <article class="infoW">
+            <h3>Las reservas se hacen comunicandote via Whatsapp</h3>
+            <div class="redes">
+                <i class="fa-brands fa-whatsapp whatsapp"></i><a href="http://wa.me/543518007211" target="_BLANK">+54-351-800-7211</a>
+                <br>
+                <i class="fa-brands fa-whatsapp whatsapp"></i><a href="http://wa.me/543513300527" target="_BLANK">+54-351-330-0527</a>
+            </div>
+            <h3>O via e-mail </h3>
+                <a href="mailto:alojamientoelnomada@gmail.com"><p>alojamientoelnomada@gmail.com</p></a>
+        </article>
+    </div>
+</section>
+
+   <footer>
+    <div class="contenido-footer">
+        <h4>Seguinos en nuestras redes</h4>
+    </div>
+    <div class="redes">
+        <a href="https://www.instagram.com/alojamiento_el_nomada/" target="_BLANK"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/alojamientoelnomada" target="_BLANK"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.google.com/maps/place/Alojamiento+El+Nómada/@-31.731876,-64.4464022,15z/data=!4m11!3m10!1s0x942d5363991ac9c5:0x408773e2851878a7!5m2!4m1!1i2!8m2!3d-31.731876!4d-64.4464022!9m1!1b1!16s%2Fg%2F11pf8ffcxq?entry=ttu" target="_BLANK"><i class="fa-brands fa-google"></i></a>
+    </div>
+    <div class="contenido-footer">
+        <p>&copy; Alojamiento el nomada/Todos los derechos reservados.<p>
+    </div>    
+   </footer>
+</body>
+</html>
